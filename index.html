@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./webpage/s.png">
+
+    <title>Examining Polarization on Twitter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./style.css" rel="stylesheet">
+
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#laurenduca").load("./laurenduca-visualization.html")
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1>CS 315 Final Project: Examining Polarization on Twitter</h1>
+      <p class="lead">Sharon Kim, Samantha Stewart, and Sanika Bapat<br>
+        <font face="Consolas">{ sharon.s.kim, sstewar7, sanika.bapat }@wellesley.edu</font></p>
+
+      <p>In this project, I examine how millennials are interacting on Twitter in the polarized political arena in the months leading up to the 2016 presidential election. I accomplish this by scraping the conversations of young, politically active journalists (<a href="https://twitter.com/laurenduca" target="blank">@laurenduca</a>, <a href="https://twitter.com/lkherman" target="blank">@lkherman</a>, <a href="https://twitter.com/tomilahren" target="blank">@tomilahren</a>) and visualizing their conversations using LDA topic modeling. Unfortunately, the conversations show few signs of political convergence and sentiment analyses reveal high levels of strong language among young people, based on sentiment analysis of their conversations.</p>
+
+      <p>You can read the final paper <a href="./final_paper.pdf">here</a>.</p>
+
+      <h3>Lauren Duca</h3>
+
+      <div id="laurenduca"></div>
+      <p>Our house is by far the most involved part of the project. Structurally speaking, there are two main parts to the house: the <code>baseBarn</code> and the <code>crossBarn</code>. As their names suggest, they intersect perpendicularly.</p>
+
+
+      <h3>Material and lighting</h3>
+
+      <p><strong>Material.</strong> Most of our material is made of <code>THREE.MeshPhongMaterial</code>, since we wanted to be sure our house would appropriately interact with the light. However, the material of the background (sky and clouds) is just a <code>THREE.MeshBasicMaterial</code> because we wanted the house to appear as if floating in mid-air. In real life, the substance of the sky does not reflect light like the shiny surface of a car would, for example, so we wanted to make sure that the sky wouldn't interact with any of the light sources in that manner. Using a <code>THREE.MeshBasicMaterial</code> would accomplish this effect.</p>
+
+      <h3>Curved surfaces</h3>
+
+
+      <hr>
+
+    </div> <!-- /container -->
+  </body>
+</html>
